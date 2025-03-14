@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recherche de cartes Pokémon</title>
 </head>
 <body>
-    <h1> Pokemon TCG </h1>
-    <p> Bienvenue, ce site vous permet de chercher tous types de cartes pokemon pour cela rentrer le nom de la carte que vous souhaitez trouver dans la barre de recherche ci-dessous </p>
+    <input type="text" id="searchInput" placeholder="Nom du Pokémon">
+    <button onclick="search()">Rechercher</button>
+    <div id="results"></div>
+
+    <script src="script.js"></script> <!-- Lien vers ton script JS -->
 </body>
 </html>
